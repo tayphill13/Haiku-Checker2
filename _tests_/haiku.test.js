@@ -15,6 +15,11 @@ describe('Haiku', () => {
     expect(newHaikuObject.line3).toBe("And who are pretty");
   });
   test('should return accurate vowel count for haiku', () => {
-    expect(newHaikuObject.countSyllables()).toBe(5,7,5);
+    // newHaikuObject.countSyllables()
+    // 
+    expect(newHaikuObject.line1vowel).toBe(5);
+    // expect() <- this is going to become something, a result. 
+    // toBe (or any matcher) will be waht expect will be compared to
+    // "this" is agnostic. As in, it only should refer to the Object (uppercase) not object (the creation of a new Object). Same with the prototype method. It will use "this".
   });
 });
