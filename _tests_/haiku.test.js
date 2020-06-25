@@ -14,4 +14,7 @@ describe('Haiku', () => {
   test('should the contents of the third line', () => {
     expect(newHaikuObject.line3).toBe("And who are pretty");
   });
+  test('should return accurate vowel count for haiku', () => {
+    expect(newHaikuObject.countSyllables()).toBe(5,7,5);
+  });
 });
