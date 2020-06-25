@@ -1,7 +1,7 @@
 {
   "name": "haiku-checker",
   "version": "1.0.0",
-  "description": "description-here",
+  "description": "This is an application to check Haiku rules",
   "main": "main.js",
   "scripts": {
     "build": "webpack --mode development",
